@@ -1,25 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
+import { Container, Row, Col } from 'reactstrap';
 import './App.css';
+import Profile from './Components/Profile';
+import Schedule from './Components/Schedule';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Row>
+        <Col xs={12} sm={12} md={8} lg={8} className="md-justify-center mt-5" >
+          <Profile />
+        </Col>
+        <Col xs={12} sm={12} md={4} lg={4} className="md-justify-center mt-5" >
+        <Schedule />
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

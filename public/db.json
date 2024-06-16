@@ -1,0 +1,129 @@
+{
+  "professional": [
+    {
+      "id": 1,
+      "name": "Dr. John Doe",
+      "specialty": "Psychologist",
+      "location": "Lisbon",
+      "price": "160",
+      "sessonTime": 50,
+      "days": [
+        {
+          "weekday": "Mon",
+          "date": "Aug 19",
+          "time": [
+            { "id": 1, "session": "08:00", "status": "available" },
+            { "id": 2, "session": "08:30", "status": "available" },
+            { "id": 3, "session": "09:00", "status": "available" },
+            { "id": 4, "session": "09:30", "status": "available" },
+            { "id": 5, "session": "10:00", "status": "available" }
+          ],
+          "status": "unavailable"
+        },
+        {
+          "weekday": "Tue",
+          "date": "Aug 20",
+          "time": [
+            { "id": 1, "session": "08:00", "status": "available" },
+            { "id": 2, "session": "08:30", "status": "available" },
+            { "id": 3, "session": "09:00", "status": "available" },
+            { "id": 4, "session": "09:30", "status": "available" },
+            { "id": 5, "session": "10:00", "status": "available" }
+          ],
+          "status": "available"
+        },
+        {
+          "weekday": "Wed",
+          "date": "Aug 21",
+          "time": [
+            { "id": 1, "session": "08:00", "status": "available" },
+            { "id": 2, "session": "08:30", "status": "available" },
+            { "id": 3, "session": "09:00", "status": "available" },
+            { "id": 4, "session": "09:30", "status": "available" },
+            { "id": 5, "session": "10:00", "status": "available" }
+          ],
+          "status": "available"
+        },
+        {
+          "weekday": "Thu",
+          "date": "Aug 22",
+          "time": [
+            { "id": 1, "session": "08:00", "status": "available" },
+            { "id": 2, "session": "08:30", "status": "available" },
+            { "id": 3, "session": "09:00", "status": "available" },
+            { "id": 4, "session": "09:30", "status": "available" },
+            { "id": 5, "session": "10:00", "status": "available" }
+          ]
+        },
+        {
+          "weekday": "Thu",
+          "date": "Aug 23",
+          "time": [
+            { "id": 1, "session": "08:00", "status": "available" },
+            { "id": 2, "session": "08:30", "status": "available" },
+            { "id": 3, "session": "09:00", "status": "available" },
+            { "id": 4, "session": "09:30", "status": "available" },
+            { "id": 5, "session": "10:00", "status": "available" }
+          ]
+        },
+        {
+          "weekday": "Thu",
+          "date": "Aug 24",
+          "time": [
+            { "id": 1, "session": "08:00", "status": "available" },
+            { "id": 2, "session": "08:30", "status": "available" },
+            { "id": 3, "session": "09:00", "status": "available" },
+            { "id": 4, "session": "09:30", "status": "available" },
+            { "id": 5, "session": "10:00", "status": "available" }
+          ]
+        },
+        {
+          "weekday": "Thu",
+          "date": "Aug 25",
+          "time": [
+            { "id": 1, "session": "08:00", "status": "available" },
+            { "id": 2, "session": "08:30", "status": "available" },
+            { "id": 3, "session": "09:00", "status": "available" },
+            { "id": 4, "session": "09:30", "status": "available" },
+            { "id": 5, "session": "10:00", "status": "available" }
+          ]
+        },
+        {
+          "weekday": "Thu",
+          "date": "Aug 26",
+          "time": [
+            { "id": 1, "session": "08:00", "status": "available" },
+            { "id": 2, "session": "08:30", "status": "available" },
+            { "id": 3, "session": "09:00", "status": "available" },
+            { "id": 4, "session": "09:30", "status": "available" },
+            { "id": 5, "session": "10:00", "status": "available" }
+          ]
+        },
+        {
+          "weekday": "Thu",
+          "date": "Aug 27",
+          "time": [
+            { "id": 1, "session": "08:00", "status": "available" },
+            { "id": 2, "session": "08:30", "status": "available" },
+            { "id": 3, "session": "09:00", "status": "available" },
+            { "id": 4, "session": "09:30", "status": "available" },
+            { "id": 5, "session": "10:00", "status": "available" }
+          ]
+        },
+        {
+          "weekday": "Thu",
+          "date": "Aug 28",
+          "time": [
+            { "id": 1, "session": "08:00", "status": "available" },
+            { "id": 2, "session": "08:30", "status": "available" },
+            { "id": 3, "session": "09:00", "status": "available" },
+            { "id": 4, "session": "09:30", "status": "available" },
+            { "id": 5, "session": "10:00", "status": "available" },
+            { "id": 6, "session": "10:00", "status": "available" },
+            { "id": 7, "session": "10:00", "status": "available" }
+          ]
+        }
+      ]
+    }
+  ]
+}
