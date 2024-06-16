@@ -44,3 +44,10 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Run backend with json-server
+
+### `npx json-server public/db.json --port 3001`
+
+Runs the json-server in the development mode.\
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
